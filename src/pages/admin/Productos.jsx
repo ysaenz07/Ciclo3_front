@@ -9,7 +9,7 @@ import PrivateComponent from 'components/PrivateComponent1';
 
 
 //const baseURL = "http://localhost:5000"
-const baseURL = 'https://agile-temple-49239.herokuapp.com';
+const baseURL = 'https://warm-waters-65815.herokuapp.com';
 
 const Productos = () => {
   const [mostrarTabla, setMostrarTabla] = useState(true);

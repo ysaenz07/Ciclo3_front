@@ -6,7 +6,7 @@ import { Dialog, Tooltip } from '@material-ui/core';
 import { obtenerVentas, crearVenta, obtenerProductosV, obtenerUsuariosV, getToken } from 'utils/api2';
 import 'react-toastify/dist/ReactToastify.css';
 
-const baseURL = 'https://dry-peak-16907.herokuapp.com';
+const baseURL = 'https://warm-waters-65815.herokuapp.com';
 //const baseURL = 'http://localhost:5000';
 
 const Ventas = () => {

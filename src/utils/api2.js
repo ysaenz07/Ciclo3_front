@@ -4,7 +4,7 @@ export const getToken=()=>{
   return `Bearer ${localStorage.getItem('token')}`
 }
 
-const baseURL = 'https://dry-peak-16907.herokuapp.com';
+const baseURL = 'https://warm-waters-65815.herokuapp.com';
 
 export const obtenerProductos = async (setProductos, setEjecutarConsulta) => {
   const options = { 
