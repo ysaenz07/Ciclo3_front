@@ -34,7 +34,7 @@ function App() {
     >  
         <div className='App'>
           <UserContext.Provider value={{userData,setUserData}}>
-            {/*<DarkModeContext.Provider value={{ darkMode, setDarkMode }}>*/ }
+            <DarkModeContext.Provider value={{ darkMode, setDarkMode }}> 
               <Router>
                 <Switch>
                 <Route path={['/admin', '/admin/productos','/admin/usuarios','/admin/ventas']}>
@@ -82,7 +82,7 @@ function App() {
                   </Route>
                 </Switch>
               </Router>
-            {/* </DarkModeContext.Provider>  */}
+            </DarkModeContext.Provider> 
           </UserContext.Provider>
         </div>
     </Auth0Provider>    
