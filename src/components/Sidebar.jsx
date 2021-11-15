@@ -10,7 +10,7 @@ const Sidebar = () => {
   const { user, logout } = useAuth0();
 
   const cerrarSesion = () => {
-    logout({ returnTo: 'https://glacial-ridge-39017.herokuapp.com/admin' });
+    logout({ returnTo: 'https://gentle-anchorage-02709.herokuapp.com/admin' });
     localStorage.setItem('token', null);
   };
 
