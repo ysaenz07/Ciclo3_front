@@ -29,7 +29,7 @@ function App() {
     <Auth0Provider
       domain='dev-02kgb3cy.us.auth0.com'
       clientId='aKq6oCe4aw99jLOzyohEVbhtlFxdIuPP'
-      redirectUri='https://glacial-ridge-39017.herokuapp.com/admin'
+      redirectUri='https://gentle-anchorage-02709.herokuapp.com/admin'
       audience='ApiCiclo'
     >  
         <div className='App'>

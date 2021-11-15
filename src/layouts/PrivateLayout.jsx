@@ -36,7 +36,7 @@ const PrivateLayout = ({ children }) => {
         (err)=>{
           console.log('err', err);
           setLoadingUserInfotmation(false);
-          logout({ returnTo: 'https://glacial-ridge-39017.herokuapp.com/admin' });
+          logout({ returnTo: 'https://gentle-anchorage-02709.herokuapp.com/admin' });
         }
       );
     };
